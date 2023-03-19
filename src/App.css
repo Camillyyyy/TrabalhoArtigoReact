@@ -1,0 +1,73 @@
+body {
+  background-color: #2a2a2e;
+  margin: 0;
+  padding: 0;
+}
+
+.dark .Fundo {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  margin: 0px 0px 0px 30px;
+  padding: 15px 15px 15px 15px;
+  position: fixed;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 10%;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  content: "aaa";
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease-in-out;
+  background: #ff0000;
+}
+
+.Fundo {
+  border: 1px solid #000000;
+  position: inherit;
+  margin: 50px 200px 50px 200px;
+  background-color: white;
+  background-size: contain;
+  justify-content: center;
+}
+
+.Titulo {
+  text-align: center;
+  font-size: 30px;
+  padding: 70px 0px 0px 70px;
+}
+
+.Mae {
+  font-size: 18px;
+  text-align: justify;
+  padding: 0px 150px 0px 150px;
+}
+
+.info {
+  text-align: center;
+}
+.myname{
+  text-align: right;
+}
+.resumea p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold
+}
